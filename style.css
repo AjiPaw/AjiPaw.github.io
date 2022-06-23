@@ -1,0 +1,109 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    min-height: 100%;
+    background: url(https://img.freepik.com/free-vector/landscape-with-surfboards-sandy-beach-palm-trees_88138-728.jpg?w=1800&t=st=1655959785~exp=1655960385~hmac=e81597b2c88a9ef1b2c10aae5d0400ea13765bde761d08f29a9732f3ae804785) blue;
+    background-size: cover;
+    width: 100%;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+  
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    color: rgb(155, 33, 33);
+    text-align: center;
+}
+  
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+  
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.result {
+    display: inline-block;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+.buttonspace {
+    margin: 0 -5px;
+    padding-top: 70px;
+}
+
+.results {
+    margin: 0 -5px;
+}
+  
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+    background-color: darksalmon;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    overflow: hidden;
+  }
+
+.title {
+  float: left;
+  font-size: 2em;
+  font-weight: bold;
+  color: #CCCCCC;
+  padding: 10px 20px;
+}
+  
+footer {
+    height: 130px;
+    overflow: hidden;
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    bottom: 0;
+}
+
+.footer {
+    color: grey;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+}
+.attribution {
+    color: darkblue;
+}
